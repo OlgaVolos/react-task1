@@ -5,9 +5,9 @@ class UsersComponent extends Component {
         let {item, clName} = this.props;
         return (
             <div className={clName}>
-                <h3>
+                <h4>
                     {item.id}+{item.name}+{item.age}+{item.status.toString()}+{item.address.city}
-                </h3>
+                </h4>
                 
             </div>
         );
